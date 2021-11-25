@@ -2,7 +2,7 @@ import os
 import telebot
 from flask import Flask, request
 
-TOKEN = "2126974409:AAE23YW8XowfwRNplMPYmHLlHkE6_4QLm-w"
+TOKEN = "2126974409:AAE-Xs6uF-PVdQE-t7lbOzcvEzil4FlAFr4"
 APP_URL = f'https://tg-web-hook.herokuapp.com/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
